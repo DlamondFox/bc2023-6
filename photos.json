@@ -1,0 +1,45 @@
+{
+  "devices": [
+    {
+      "identifier": "1",
+      "name": "Device1",
+      "decsription": "language",
+      "serialNumber": "XIO666",
+      "manufacturer": "Pascal",
+      "filename": "delphi.jpg",
+      "usage": "no used",
+      "user": "available"
+    },
+    {
+      "identifier": "2",
+      "name": "Device2",
+      "decsription": "faculty",
+      "serialNumber": "2003",
+      "manufacturer": "LNU",
+      "filename": "fect.jpg",
+      "usage": "is use",
+      "user": "Dmytro"
+    }
+  ],
+  "users": [
+    {
+      "name": "Dmytro",
+      "surname": "Holovko",
+      "login": "dh_df",
+      "password": "password",
+      "devices": [
+        {
+          "identifier": "2",
+          "usage": "is use"
+        }
+      ]
+    },
+    {
+      "name": "Oleh",
+      "surname": "Oleksandrovych",
+      "login": "wiper",
+      "password": "password",
+      "devices": []
+    }
+  ]
+}
